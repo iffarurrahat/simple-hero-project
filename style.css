@@ -72,7 +72,8 @@
   z-index: 50;
 
 }
-/* Responsive Style */
+/* Responsive Styles */
+/* Laptop Device */
 @media only screen and (max-width: 1200px) {
   .card__text{
     width: 70%;
@@ -81,6 +82,7 @@
     width: 30%;
   }
 }
+/* Tablet Device */
 @media only screen and (max-width: 800px) {
   .card{
     flex-direction: column-reverse;
@@ -100,6 +102,7 @@
     margin-top: 40px;
   }
 }
+/* Mobile Device */
 @media only screen and (max-width: 500px) {
   .card{
     flex-direction: column-reverse;
